@@ -4,7 +4,7 @@ A collection of productivity boosting AutoHotkey scripts for Windows power users
 
 
 ## 📌 Table of Contents
-- [Components](#components)
+- [Components](#-components)
 	- [App Switcher](#app-switcher)
 	- [Dynamic Shortcuts](#dynamic-shortcuts)
 	- [Editing Keys](#editing-keys)
@@ -12,20 +12,20 @@ A collection of productivity boosting AutoHotkey scripts for Windows power users
 	- [Windows Management](#windows-management)
 	- [Paste Without Formatting](#paste-without-formatting)
 	- [Key Mappings](#key-mappings)
-- [Getting Started](#getting-started)
+- [Getting Started](#%EF%B8%8F-getting-started)
 	- [Prerequisites](#prerequisites)
 	- [Running](#running)
 	- [Enable on Start Up](#enable-on-start-up)
-- [Making Changes](#making-changes)
-- [Roadmap](#roadmap)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
+- [Making Changes](#-making-changes)
+- [Roadmap](#-roadmap)
+- [Contributing](#-contributing)
+- [License](#%EF%B8%8F-licence)
+- [Acknowledgements](#-acknowledgements)
 
 
 ## 🚀 Components
 
-### App Switcher
+### [App Switcher](src/lib/AppSwitcher.ahk)
 
 Rapidly switch between open windows of the same app using a single shortcut. Much faster than using the default Windows Task Switcher.
 
@@ -33,23 +33,23 @@ For example using `RAlt + N` will switch between all open Notepad windows in tur
 
 Customise the script to add all your favourite applications.
 
-### Dynamic Shortcuts
+### [Dynamic Shortcuts](src/lib/DynamicShortcuts.ahk)
 
 Are you constantly switching between windows and then having to find the open window again? This script enables you to dynamically assign a shortcut to the currently active window so that you can easily switch back to it with a single shortcut.
 
 Use `RAlt + Shift + {num}` to assign a shortcut to the current active window. Then use `RAlt + {num}` to switch back to that window at anytime.
 
-### Editing Keys
+### [Editing Keys](src/lib/EditingKeys.ahk)
 
 Switches all character keys on the keyboard to become navigational for faster editing without having to move your hands off the home row. For example `J` becomes `Down`, `K` becomes `Up`.
 
 Press `RAlt` to toggle between keyboard modes.
 
-### App Opener
+### [App Opener](src/lib/AppOpener.ahk)
 
 Adds shortcuts to open a new instance of a specified app. For example, set `RAlt + F1` to open a new browser window using a specific profile.
 
-### Windows Management
+### [Windows Management](src/lib/WindowsManagement.ahk)
 
 Adds hotkeys for common Windows management
 
@@ -58,13 +58,13 @@ Adds hotkeys for common Windows management
 - `RAlt + -`: Minimise window
 - `Right Alt + BackTick`: Move window between monitors
 
-### Paste Without Formatting
+### [Paste Without Formatting](src/lib/PasteWithoutFormatting.ahk)
 
 When `Ctrl + Shift + V` is pressed the script will paste the current clipboard contents as plain text with all formatting removed.
 
 This functionality has since been added to [Microsoft PowerToys](https://learn.microsoft.com/en-us/windows/powertoys/paste-as-plain-text)
 
-### KeyMappings
+### [Key Mappings](src/lib/KeyMappings.ahk)
 
 A place to add common key mappings.
 
